@@ -88,7 +88,12 @@ qwerty.addEventListener('click',(e)=>{
       checkWin();
     }
 });
-
+/**1.* Set missed back to 0 - since you are resetting the game. 
+*2.* Reset the hearts back to the liveHearts
+*3.* Remove the phrase - you need to remove the unordered lists children (`li`'s).
+*4.* Remove the chosen class from all of the buttons so they are active again. 
+*5.* You want to generate a new phrase (you can use the `getRanfomPhrasesArray` function to do this
+*6.* Lastly, you want to add the `li`'s to the display (`addPhraseToDisplay`).*/
 
 
 
